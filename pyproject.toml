@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hashkey-mine"
+version = "0.1.0"
+description = ""
+authors = ["Jake Pyo <wjddn1801@snu.ac.kr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.1"
+requests = "^2.31.0"
+fastapi = "^0.110.2"
+uvicorn = "^0.29.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
